@@ -1,2 +1,2 @@
-const module = 'module'
+const module = 'Hello World'
 console.log(module)

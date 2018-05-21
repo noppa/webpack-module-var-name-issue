@@ -4,14 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pretest": "npm run build",
     "test": "node main.bundle.js",
-    "build": "webpack"
+    "build": "webpack",
+    "build:babel": "webpack --env.useBabel"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "webpack": "^4.8.3",
     "webpack-cli": "^2.1.3"
   }
