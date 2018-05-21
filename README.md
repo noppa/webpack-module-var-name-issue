@@ -14,3 +14,6 @@ npm run test
 ```
 
 File `main.bundle.js` contains the webpack output after running a build command.
+
+To run `index.js` as a native ES6-module in the browser, use [http-server](https://www.npmjs.com/package/http-server) or a similar tool to serve the root folder and open
+`index.html` in Chrome.
