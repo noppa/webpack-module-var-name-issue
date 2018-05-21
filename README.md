@@ -12,3 +12,5 @@ npm i
 npm run build:babel
 npm run test
 ```
+
+File `main.bundle.js` contains the webpack output after running a build command.
